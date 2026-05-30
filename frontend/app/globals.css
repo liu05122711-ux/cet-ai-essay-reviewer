@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f7f9fb;
+  color: #172026;
+}
+
+textarea,
+input {
+  outline: none;
+}
+
+.highlight-grammar {
+  background: rgba(245, 158, 11, 0.22);
+  border-bottom: 2px solid #f59e0b;
+}
+
+.highlight-spelling {
+  background: rgba(239, 68, 68, 0.16);
+  border-bottom: 2px solid #ef4444;
+}
+
+.highlight-style {
+  background: rgba(20, 184, 166, 0.18);
+  border-bottom: 2px solid #14b8a6;
+}
+
